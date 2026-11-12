@@ -1,0 +1,11 @@
+কম্পিউটার ছাড়াই ফোন থেকে APK বানানোর উপায়:
+
+১) GitHub.com এ অ্যাকাউন্ট খুলে Sign in করুন।
+২) New repository তৈরি করুন; নাম দিন SUPER-ADMIN-APP এবং Private নির্বাচন করতে পারেন।
+৩) এই ZIP Extract করে ভেতরের SUPER_ADMIN_Android_Project ফোল্ডারের সব ফাইল GitHub repository-তে Upload files দিয়ে আপলোড করুন। .github ফোল্ডারটিও আপলোড করতে হবে।
+৪) Commit changes করুন।
+৫) Repository-র Actions ট্যাবে যান। Build SUPER ADMIN APK workflow নির্বাচন করে Run workflow চাপুন।
+৬) কাজ সফল হলে Actions-এর সর্বশেষ run খুলুন। নিচে Artifacts থেকে SUPER-ADMIN-debug-APK ডাউনলোড করুন। ZIP Extract করলে app-debug.apk পাবেন।
+৭) APK ইনস্টল করার আগে কেবল নিজের তৈরি/বিশ্বস্ত APK ইনস্টল করুন; Android চাইলে Install unknown apps অনুমতি দিন।
+
+নোট: এটি debug APK; Play Store-এ প্রকাশের জন্য signed release build প্রয়োজন। GitHub-এর UI-তে ফোনে ফাইল আপলোড করতে সমস্যা হলে জানান।
